@@ -9,15 +9,64 @@ public class Func{
 
 public void trippleturn(){
 Turn();
- Turn();
- Turn();
+Turn();
+Turn();
 }
 
 public void doubleturn(){
 Turn();
 Turn();
 }
+public void pattern1(){
+    MoveChain();
+    Turn();
+    MoveChain();
+    Turn();
+    MoveChain();
+    trippleturn();
+    MoveChain();
 
+}
+public void inverse1(){
+    Turn();
+    MoveChain();
+    trippleturn();
+    MoveChain();
+    Turn();
+    MoveChain();
+}
+public void pattern2(){
+    MoveChain();
+    trippleturn();
+    MoveChain();
+    Turn();
+    MoveChain();
+    Turn();
+    MoveChain();
+    trippleturn();
+    MoveChain();
+}
+public void pattern3(){
+    trippleturn();
+    MoveChain();
+    Turn();
+    MoveChain();
+}
+public void pattern4(){
+    inverse1();
+    pattern3();
+    move1();
+}
+public void move1(){
+    Turn();
+    Move();
+}
+public void move3(){
+    Turn();
+    Move();
+    Move();
+    Move();
+}
 public void MoveChain()
 {
     while (Peek())
