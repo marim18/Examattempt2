@@ -1,4 +1,4 @@
-/*using functions;
+using functions;
 using System;
 Func nfu = new Func();
 nfu.pattern4();
@@ -19,4 +19,3 @@ nfu.pattern3();
 if(nfu.AtGoal()){
 Console.WriteLine("you made it");}
 
-*/

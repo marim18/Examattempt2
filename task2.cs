@@ -1,6 +1,6 @@
 using functions;
 using System;
-/*
+
 Func nfu = new Func();
 while (!nfu.AtGoal())
 {
@@ -8,4 +8,3 @@ while (!nfu.AtGoal())
     nfu.Turn();
 }
 Console.WriteLine("you made it");
-*/

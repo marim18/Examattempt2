@@ -1,4 +1,4 @@
-/*using functions;
+using functions;
 using System;
 Func nfu = new Func();
 nfu.pattern1();
@@ -8,4 +8,3 @@ while(!nfu.AtGoal()){
     nfu.pattern2();
 }
 Console.WriteLine("you made it");
-*/
